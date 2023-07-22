@@ -1,0 +1,32 @@
+.header{
+    margin: 0 0 10px 0;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    nav {
+        padding: 15px ;
+        ul {
+            display: flex;
+            align-items: center ;
+            justify-content: space-between;
+            padding: 15px;            
+            li{ 
+                cursor: pointer;
+                transition: all 300ms ease;
+                position: relative;
+                top: 0;
+                left: 0;
+                &:hover{
+                    text-decoration: underline;
+                    transform: translate(3px, 3px);
+                    color: #e4d744;
+                    }
+                img{
+                    width: 50px;
+                    
+                }
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,26 @@
+.home{
+    border-radius: 20px;
+    background: url('../../assets/beer1.png') center/cover no-repeat;;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+    h1{
+        text-align: center;
+        color: white;
+    }
+}
+@media(max-width: 450px) {
+    .home{
+        h1{
+            font-size: 24px;
+        }
+    }
+}
+@media(max-width: 600px) {
+    .home{
+        height: 40vh;
+    }
+}
+
